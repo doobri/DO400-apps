@@ -6,7 +6,7 @@ pipeline {
             steps {
                 sendNotification('started', 'team@example.com')
                 git branch: 'notifications',
-                    url: 'https://github.com/YOUR_GITHUB_USER/DO400-apps'
+                    url: 'https://github.com/doobri/DO400-apps'
             }
         }
 
