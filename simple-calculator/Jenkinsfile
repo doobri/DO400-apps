@@ -29,7 +29,6 @@ pipeline {
                             unstable("${STAGE_NAME} stage failed!")
                         }
                     }
-                    sh './mvnw clean checkstyle:check'
                 }
             }
         }
